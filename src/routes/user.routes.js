@@ -16,7 +16,7 @@ router.route("/logout").post(logoutUser);
 
 router.route('/students').get(  getStudentsData);
 
-
+// --------------------Admin updates student grade-------------------
 router.route('/students/:id').put(  updateStudentGrade)
 
 export default router;
