@@ -17,6 +17,6 @@ router.route("/logout").post(logoutUser);
 router.route('/students').get(  getStudentsData);
 
 
-router.route('/students/:id').put(  updateStudentGrade);
+router.route('/students/:id').put(  updateStudentGrade)
 
 export default router;
